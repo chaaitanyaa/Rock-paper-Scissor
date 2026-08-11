@@ -9,5 +9,9 @@ function getComputerChoice() {
     }
 }
 
-console.log(getComputerChoice())
+function getHumanChoice() {
+    const humanChoice = prompt('Choose between Rock, Paper,Scissor')
+    return humanChoice.charAt(0).toUpperCase() + humanChoice.slice(1)
+}
+
 
